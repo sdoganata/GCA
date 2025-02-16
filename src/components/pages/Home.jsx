@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from '../ui components/Hero';
 import About from '../ui components/About';
 
-const Home = ({ token }) => {
+const Home = () => {
   return (
     <div>
       <Hero />

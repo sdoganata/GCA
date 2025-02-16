@@ -2,7 +2,7 @@ import React from 'react'
 import netlab_banner from '../../assets/netlab_banner-3.png'
 import { Link } from 'react-router-dom'
 
-const Navbar = ({token, handleLogout}) => {
+const Navbar = () => {
   return (
     <nav className={'netlab-navbar'}>
       <a className='a-navbar' href="https://netlab.ku.edu.tr/">
