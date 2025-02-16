@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/GCA/static/css/main.31d6cfe0.css",
+    "main.js": "/GCA/static/js/main.fe4f4417.js",
+    "static/js/488.2c2c4401.chunk.js": "/GCA/static/js/488.2c2c4401.chunk.js",
+    "index.html": "/GCA/index.html",
+    "main.fe4f4417.js.map": "/GCA/static/js/main.fe4f4417.js.map",
+    "488.2c2c4401.chunk.js.map": "/GCA/static/js/488.2c2c4401.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.fe4f4417.js"
+  ]
+}
