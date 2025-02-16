@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GCA/static/css/main.31d6cfe0.css",
+    "main.css": "/GCA/static/css/main.2301c30d.css",
     "main.js": "/GCA/static/js/main.093a8c3f.js",
     "static/js/488.2c2c4401.chunk.js": "/GCA/static/js/488.2c2c4401.chunk.js",
     "static/media/logo.png": "/GCA/static/media/logo.d551f230818eaf957a03.png",
@@ -9,11 +9,12 @@
     "static/media/netlab_banner-3.png": "/GCA/static/media/netlab_banner-3.4c9432b9ab2fee4d4792.png",
     "static/media/instagram_logo.png": "/GCA/static/media/instagram_logo.734a95643ee0100baeca.png",
     "index.html": "/GCA/index.html",
+    "main.2301c30d.css.map": "/GCA/static/css/main.2301c30d.css.map",
     "main.093a8c3f.js.map": "/GCA/static/js/main.093a8c3f.js.map",
     "488.2c2c4401.chunk.js.map": "/GCA/static/js/488.2c2c4401.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31d6cfe0.css",
+    "static/css/main.2301c30d.css",
     "static/js/main.093a8c3f.js"
   ]
 }
