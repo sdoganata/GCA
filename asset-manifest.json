@@ -1,14 +1,19 @@
 {
   "files": {
     "main.css": "/GCA/static/css/main.31d6cfe0.css",
-    "main.js": "/GCA/static/js/main.fe4f4417.js",
+    "main.js": "/GCA/static/js/main.69956ae0.js",
     "static/js/488.2c2c4401.chunk.js": "/GCA/static/js/488.2c2c4401.chunk.js",
+    "static/media/logo.png": "/GCA/static/media/logo.d551f230818eaf957a03.png",
+    "static/media/ku-bilim-kapisi.jpg": "/GCA/static/media/ku-bilim-kapisi.148447fac09123b63e9c.jpg",
+    "static/media/smiley_face.png": "/GCA/static/media/smiley_face.88e75db4e7a777149b6d.png",
+    "static/media/netlab_banner-3.png": "/GCA/static/media/netlab_banner-3.4c9432b9ab2fee4d4792.png",
+    "static/media/instagram_logo.png": "/GCA/static/media/instagram_logo.734a95643ee0100baeca.png",
     "index.html": "/GCA/index.html",
-    "main.fe4f4417.js.map": "/GCA/static/js/main.fe4f4417.js.map",
+    "main.69956ae0.js.map": "/GCA/static/js/main.69956ae0.js.map",
     "488.2c2c4401.chunk.js.map": "/GCA/static/js/488.2c2c4401.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.31d6cfe0.css",
-    "static/js/main.fe4f4417.js"
+    "static/js/main.69956ae0.js"
   ]
 }
