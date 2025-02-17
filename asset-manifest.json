@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GCA/static/css/main.962bd12d.css",
-    "main.js": "/GCA/static/js/main.829b99ed.js",
+    "main.css": "/GCA/static/css/main.b73289f4.css",
+    "main.js": "/GCA/static/js/main.4855d072.js",
     "static/js/488.2c2c4401.chunk.js": "/GCA/static/js/488.2c2c4401.chunk.js",
     "static/media/logo.png": "/GCA/static/media/logo.d551f230818eaf957a03.png",
     "static/media/ku-bilim-kapisi.jpg": "/GCA/static/media/ku-bilim-kapisi.148447fac09123b63e9c.jpg",
@@ -9,12 +9,12 @@
     "static/media/netlab_banner-3.png": "/GCA/static/media/netlab_banner-3.4c9432b9ab2fee4d4792.png",
     "static/media/instagram_logo.png": "/GCA/static/media/instagram_logo.734a95643ee0100baeca.png",
     "index.html": "/GCA/index.html",
-    "main.962bd12d.css.map": "/GCA/static/css/main.962bd12d.css.map",
-    "main.829b99ed.js.map": "/GCA/static/js/main.829b99ed.js.map",
+    "main.b73289f4.css.map": "/GCA/static/css/main.b73289f4.css.map",
+    "main.4855d072.js.map": "/GCA/static/js/main.4855d072.js.map",
     "488.2c2c4401.chunk.js.map": "/GCA/static/js/488.2c2c4401.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.962bd12d.css",
-    "static/js/main.829b99ed.js"
+    "static/css/main.b73289f4.css",
+    "static/js/main.4855d072.js"
   ]
 }
