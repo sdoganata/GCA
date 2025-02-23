@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GCA/static/css/main.31495f41.css",
-    "main.js": "/GCA/static/js/main.dbbc5f33.js",
+    "main.css": "/GCA/static/css/main.562e41f1.css",
+    "main.js": "/GCA/static/js/main.5e027500.js",
     "static/js/488.2c2c4401.chunk.js": "/GCA/static/js/488.2c2c4401.chunk.js",
     "static/media/olaparib.zip": "/GCA/static/media/olaparib.c1d4863cf6be3ac30829.zip",
     "static/media/statnet.jpeg": "/GCA/static/media/statnet.53ffa60f6fc51f1b0399.jpeg",
@@ -10,12 +10,12 @@
     "static/media/node.jpg": "/GCA/static/media/node.7dbe96431583eda94bfb.jpg",
     "static/media/instagram_logo.png": "/GCA/static/media/instagram_logo.734a95643ee0100baeca.png",
     "index.html": "/GCA/index.html",
-    "main.31495f41.css.map": "/GCA/static/css/main.31495f41.css.map",
-    "main.dbbc5f33.js.map": "/GCA/static/js/main.dbbc5f33.js.map",
+    "main.562e41f1.css.map": "/GCA/static/css/main.562e41f1.css.map",
+    "main.5e027500.js.map": "/GCA/static/js/main.5e027500.js.map",
     "488.2c2c4401.chunk.js.map": "/GCA/static/js/488.2c2c4401.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.31495f41.css",
-    "static/js/main.dbbc5f33.js"
+    "static/css/main.562e41f1.css",
+    "static/js/main.5e027500.js"
   ]
 }
