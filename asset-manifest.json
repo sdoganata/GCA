@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/GCA/static/css/main.78b75fc9.css",
+    "main.js": "/GCA/static/js/main.73ad8f70.js",
+    "static/js/488.1536115d.chunk.js": "/GCA/static/js/488.1536115d.chunk.js",
+    "static/media/olaparib.zip": "/GCA/static/media/olaparib.c1d4863cf6be3ac30829.zip",
+    "static/media/statnet.jpeg": "/GCA/static/media/statnet.53ffa60f6fc51f1b0399.jpeg",
+    "static/media/dynnet.gif": "/GCA/static/media/dynnet.ccca181928267aa0e7fc.gif",
+    "static/media/netlab_banner-3.png": "/GCA/static/media/netlab_banner-3.4c9432b9ab2fee4d4792.png",
+    "static/media/node.jpg": "/GCA/static/media/node.7dbe96431583eda94bfb.jpg",
+    "static/media/instagram_logo.png": "/GCA/static/media/instagram_logo.734a95643ee0100baeca.png",
+    "index.html": "/GCA/index.html",
+    "main.78b75fc9.css.map": "/GCA/static/css/main.78b75fc9.css.map",
+    "main.73ad8f70.js.map": "/GCA/static/js/main.73ad8f70.js.map",
+    "488.1536115d.chunk.js.map": "/GCA/static/js/488.1536115d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78b75fc9.css",
+    "static/js/main.73ad8f70.js"
+  ]
+}
