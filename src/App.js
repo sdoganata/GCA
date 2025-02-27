@@ -1,9 +1,14 @@
 import React from 'react'
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import Navbar from './components/ui-components/Navbar';
 import Footer from './components/ui-components/Footer';
 import Home from './components/pages/Home';
-
+import BrowseTable from './components/pages/BrowseTable';
+import Help from './components/pages/Help';
+import CellLineTable from './components/pages/CellLineTable';
+import PDXTable from './components/pages/PDXTable';
+import DrugTable from './components/pages/DrugTable';
+import TableLinks from './components/pages/TableLinks';
 
 const App = () => {
     return (
@@ -11,6 +16,13 @@ const App = () => {
             <Navbar/>
             <Routes>
                 <Route path="/GCA/" element={<Home/>} />
+                <Route path="/browsetable/" element={<BrowseTable/>} />
+                <Route path="/celllinetable/" element={<CellLineTable/>} />
+                <Route path="/pdxtable/" element={<PDXTable/>} />
+                <Route path="/drugtable/" element={<DrugTable/>} />
+                <Route path="/tablebrowser/" element={<TableLinks/>} />
+                <Route path="/help/" element={<Help/>} />
+                <Route path="/" element={<Navigate to="/GCA/"/>} />
             </Routes>
             <Footer/>
         </div>

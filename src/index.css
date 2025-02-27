@@ -24,7 +24,7 @@ body {
   
   .netlab-footer {
     background-color: rgb(53, 69, 77);
-    height: 20em;
+    height: 15em;
     display: flex;
     flex-direction: row;
     flex-shrink: 0;
@@ -68,27 +68,9 @@ body {
     height: 100%;
   }
   
-  .div-home-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-  }
-  
-  .home-title {
-    font-family: 'Sofia Sans Extra Condensed';
-    font-weight: 600;
-    font-size: 6vw;
-    color: black;
-    margin-top: 0.2em;
-    margin-bottom: 0;
-    text-align: center;
-  }
-  
   .hero {
-    width: 100vw;
-    height: 75vh;
-    min-height: 25em;
+    width: 100%;
+    min-height: 15em;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -100,21 +82,35 @@ body {
   }
   
   .hero-image {
-    opacity: 0.4;
+    opacity: 0.8;
     object-fit: cover;
     width: 100%;
-    min-height: 100%;
+    height: 100%;
     position: absolute;
   }
+
+  .hero-title {
+    color: white;
+    margin: 0;
+    font-weight: 500;
+    z-index: 10;
+    /*text-shadow: 
+    -2px -2px 0 rgb(53, 69, 77),  
+     2px -2px 0 rgb(53, 69, 77),  
+    -2px  2px 0 rgb(53, 69, 77),  
+     2px  2px 0 rgb(53, 69, 77);*/
+    font-size: clamp(3rem, 6vw, 7rem);
+  }
   
-  .about {
-    background-color: whitesmoke;
+  .page-div {
+    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     font-family: 'Barlow Condensed';
     padding: 2em;
+    flex: 1;
   }
   
   .about-title {
@@ -167,7 +163,7 @@ body {
   
   
   .banner-hero {
-    width: 70%;
+    width: 50%;
     object-fit: contain;
   }
   
@@ -195,7 +191,7 @@ body {
     color: white;
     font-weight: 400;
     font-size: 1.7vw;
-    background-color: #337F89;
+    background-color: #698e92;
     border-radius: 10px;
     padding: 1.7vh;
     margin: 0.8vh;
@@ -224,256 +220,118 @@ body {
     padding: 2em;
     min-height: min-content;
   }
-  
-  .sign-box {
-    height: 75%;
-    width: 35%;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 10px 10px 5px darkgrey;
-    min-height: 20em;
-  }
-  
-  .password-box {
-    height: 50%;
-    width: 35%;
-    background-color: whitesmoke;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 10px 10px 5px darkgrey;
-  }
-  
-  .sign-form {
-    height: 65%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  
-  .sign-input {
-    height: 25%;
-    width: 75%;
-    border-radius: 5px;
-    border: none;
-    margin-top: 1em;
-    padding: 10px;
-    min-height: 1.5em;
-  }
-  
-  .sign-text, .submit-title {
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: x-large;
-    color: #337F89;
-    margin-bottom: 0;
-  }
-  
-  .sign-link, .submit-link {
-    font-family: 'Roboto';
-    color: #3dbbcc;
-    margin-top: 0;
-    padding-bottom: 1em;
-  }
-  
-  .sign-button, .submit-button, .missing-button {
-    height: 2.5em;
-    width: 75%;
-    border-radius: 5px;
-    border: none;
-    background-color: #337F89;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    color: white;
-    padding: 10px;
-    font-size: 1.2em;
-  }
-  
-  .sign-button {
-    margin-bottom: 0.1em;
-  }
-  
-  .sign-button:hover, .submit-button:hover, .missing-button:hover {
-    background-color: rgb(53, 69, 77);
-    cursor: pointer;
-  }
-  
-  .div-user-results, .div-results {
-    flex: 1;
-    min-height: max-content;
-    background-color: white;
-    padding: 2em;
-  }
-  
-  .div-profile {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .profile-link {
-    color: black;
-    background-color: white;
-    padding: 1em;
-    text-decoration: none;
-    text-align: end;
-  }
-  
-  .submit-form {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    height: fit-content;
-    align-self: start;
-    margin-left: 2vw;
-  }
-  
-  .submit-title {
-    color: black;
-    align-self: start;
-    margin: 1vw 2vw 5vh;
-    font-size: 2em;
-  }
-  
-  .submit-input, .submit-select {
-    border: 2px;
-    border-style: solid;
-    border-color: darkgray;
-    padding: 10px;
-    width: 20vw;
-    font-size: 1em;
-    border-radius: 4px;
-    margin: 5px;
-    margin-left: 0;
-    height: 3em;
-    padding: 0 1em;
-  }
-  
-  .submit-text {
-    color: rgb(89, 184, 231);
-  }
-  
-  .submit-para, .submit-area {
-    font-size: 1em;
-    color: black;
-  }
-  
-  .submit-area {
-    margin-left: 3.5em;
-  }
-  
-  .submit-ex {
-    width: 20em;
-  }
-  
-  .submit-div {
-    display: flex;
-    flex-direction: row;
-    height: 4.5em;
-    min-height: min-content;
-  }
-  
-  .submit-link {
-    padding: 0
-  }
-  
-  .submit-button, .missing-button {
-    margin-top: 0;
-    padding: 0;
-    width: 15em;
-  
-  }
-  
-  .div-seed {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-  }
-  
-  
-  .div-project {
-    margin: 1em;
-    background-color: #337F89;
-    height: 20em;
-    width: 90%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-  }
-  
-  .div-project-image {
-    margin: 1em;
-    aspect-ratio: 1/1;
-    height: 90%;
-  }
-  
-  .project-image {
-    object-fit: cover;
-    height: 100%;
-  }
-  
-  .div-project-info {
-    padding: 1em;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-    height: 100%;
-  }
-  
-  .project-title {
-    font-size: 2em;
-    height: 35%;
-    font-weight: 500;
-    align-self: start;
-    padding-top: 2em;
-    color: black;
-    text-decoration: none;
-    padding-left: 1em;
-  }
-  
-  .project-summary {
-    font-size: 1.5em;
-    height: 60%;
-    margin: 0;
-    text-align: justify;
-    padding: 2%;
-  }
-  
-  .project-github-link {
-    font-size: 1.5em;
-    color: black;
-    align-self: end;
-    margin-bottom: 2em;
-    margin-right: 2em;
-  }
-  
-  .div-missing-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .missing-button {
-    font-size: 1em;
-    margin-right: 0.8em;
-    width: max-content;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
-  }
-  
-  .popup {
-    align-self: start;
-  }
+
+.page-image {
+  width: auto;
+  max-height: 20rem;
+  margin-right: 3.5em;
+  margin-left: 3.5em;
+}
+
+
+.downloads {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Barlow Condensed';
+  padding: 2em;
+  height: 100%;
+  width: 100%;
+}
+
+.download-div {
+  background-color: rgba(53, 69, 77, 0.517);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Barlow Condensed';
+  padding: 1.5em;
+  height: 10vh;
+  min-height: 5em;
+  width: 20vw;
+  min-width: 10em;
+  border-radius: 1em;
+}
+
+.browse-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+}
+
+.browse-table th, .browse-table td {
+  border: 2px solid black;
+  padding: 1em;
+  margin: 0;
+  text-align: center;
+}
+
+.help-txt {
+  width: 90%;
+  font-size: 1.3em;
+
+}
+
+.help-title {
+  font-size: 2em;
+}
+.div-project {
+  margin: 1em;
+  background-color: #a2b5b7;
+  height: 20em;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+}
+
+.div-project-image {
+  margin: 1em;
+  aspect-ratio: 1/1;
+  height: 90%;
+}
+
+.project-image {
+  object-fit: cover;
+  height: 100%;
+}
+
+.div-project-info {
+  padding: 1em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+}
+
+.project-title {
+  font-size: 2em;
+  height: 35%;
+  font-weight: 500;
+  align-self: start;
+  padding-top: 2em;
+  color: black;
+  text-decoration: none;
+  padding-left: 1em;
+}
+
+.project-summary {
+  font-size: 1.5em;
+  height: 60%;
+  margin: 0;
+  text-align: justify;
+  padding: 2%;
+}
+
+.project-github-link {
+  font-size: 1.5em;
+  color: black;
+  align-self: end;
+  margin-bottom: 2em;
+  margin-right: 2em;
+}
