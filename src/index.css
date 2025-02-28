@@ -283,7 +283,6 @@ code {
 
 .div-project-image {
   margin: 1em;
-  aspect-ratio: 1/1;
   height: 90%;
 }
 
@@ -315,7 +314,7 @@ code {
 }
 
 .project-summary {
-  font-size: 1.5em;
+  font-size: 1.7vw;
   height: 60%;
   margin: 0;
   text-align: justify;
@@ -332,18 +331,14 @@ code {
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
-  .netlab-navbar {
-    height: auto;
-    flex-direction: column;
-  }
   
   .hero-title {
     font-size: clamp(2rem, 6vw, 4rem);
   }
 
   .navbar-links {
-    flex-direction: column;
     gap: 1em;
+    font-size: 1em;
   }
 
   .hero-link {
@@ -359,7 +354,7 @@ code {
   .project-title {
     font-size: 1.5em;
   }
-  
+
   .project-summary {
     font-size: 1.2em;
   }
