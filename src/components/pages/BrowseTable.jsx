@@ -35,7 +35,7 @@ const BrowseTable = () => {
                 <td>{val.drug}</td>
                 <td><a href={val.zipfile} download>Download ZIP</a></td>
                 <td>
-                  {val.anim ? <img src={process.env.PUBLIC_URL + val.anim} alt="Dynamic Network" width="200" /> : "No animation"}
+                  {val.anim ? <img src={process.env.PUBLIC_URL + val.anim} alt="Dynamic Network" width="80%" /> : "No animation"}
                 </td>
               </tr>
             ))

@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import BrowseTable from "./BrowseTable";
 
 const DrugTable = () => {
   const [files, setFiles] = useState([]);

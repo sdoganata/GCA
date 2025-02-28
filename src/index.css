@@ -1,225 +1,219 @@
 body {
-    height: 100%;
-    margin: 0;
-    font-family: 'Roboto';
-    margin: 0;
-    background-color: rgb(53, 69, 77);
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-      monospace;
-  }
-  
-  .netlab-navbar {
-    background-color: rgb(53, 69, 77);
-    height: 5em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    flex-shrink: 0;
-    
-  }
-  
-  .netlab-footer {
-    background-color: rgb(53, 69, 77);
-    height: 15em;
-    display: flex;
-    flex-direction: row;
-    flex-shrink: 0;
-  }
-  
-  .div-footer-info {
-    flex: 2;
-    font-size: 1em;
-    color: white;
-    display: flex;
-    flex-direction: row;
-    padding: 2em;
-  }
-  
-  .address-info {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-  }
-  .address-info-text {
-    margin: 0.2em;
-  }
-  
-  .div-footer-widgets {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: end;
-    padding:2em
-  }
-  
-  .widget-link {
-    height: 2em;
-    margin: 0.5em
-  }
-  
-  .widget-image {
-    object-fit: contain;
-    height: 100%;
-  }
-  
-  .hero {
-    width: 100%;
-    min-height: 15em;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    position: relative;
-    background: white;
-    font-family: 'Barlow Condensed';
-  }
-  
-  .hero-image {
-    opacity: 0.8;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-  }
+  height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(53, 69, 77);
+}
 
-  .hero-title {
-    color: white;
-    margin: 0;
-    font-weight: 500;
-    z-index: 10;
-    /*text-shadow: 
-    -2px -2px 0 rgb(53, 69, 77),  
-     2px -2px 0 rgb(53, 69, 77),  
-    -2px  2px 0 rgb(53, 69, 77),  
-     2px  2px 0 rgb(53, 69, 77);*/
-    font-size: clamp(3rem, 6vw, 7rem);
-  }
-  
-  .page-div {
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Barlow Condensed';
-    padding: 2em;
-    flex: 1;
-  }
-  
-  .about-title {
-    font-size: 4em;
-    margin: 0;
-    font-weight: 500;
-  }
-  
-  .navbar-links {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2em;
-    padding: 2em;
-    font-family: 'Roboto';
-    font-weight: 400;
-  }
-  
-  .navbar-link {
-    text-decoration: none;
-    color: white;
-    font-size: 1em;
-  }
-  
-  .navbar-button {
-    border: none;
-    background-color: rgb(53, 69, 77);
-    color: white;
-    font-size: 1em;
-  }
-  
-  .navbar-link:hover {
-    cursor: pointer;
-  }
-  
-  .navbar-button:hover {
-    cursor: pointer;
-  }
-  
-  .a-navbar {
-    height: 80%;
-  }
-  
-  .banner-navbar {
-    object-fit: contain;
-    height: 100%;
-    margin-left: 3.5em;
-    filter: invert()
-  }
-  
-  
-  .banner-hero {
-    width: 50%;
-    object-fit: contain;
-  }
-  
-  .div-hero-banner {
-    flex: 1;
-    padding: 5vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
-  
-  .div-hero-link {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      min-height: 20em;
-  }
-  
-  .hero-link {
-    width: 60%;
-    color: white;
-    font-weight: 400;
-    font-size: 1.7vw;
-    background-color: #698e92;
-    border-radius: 10px;
-    padding: 1.7vh;
-    margin: 0.8vh;
-    text-decoration: none;
-    text-align: center;
-  }
-  
-  .hero-link:hover {
-    background-color: rgb(53, 69, 77);
-    cursor: pointer;
-  }
-  
-  .container {
-    display: flex;
-    flex-flow: column;
-    height: 100vh;
-  }
-  
-  .box-container {
-    flex: 1 1 auto;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 2em;
-    min-height: min-content;
-  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.netlab-navbar {
+  background-color: rgb(53, 69, 77);
+  height: 5em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  padding: 0 2vw;  /* Add padding for responsiveness */
+}
+
+.netlab-footer {
+  background-color: rgb(53, 69, 77);
+  height: 15em;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+
+.div-footer-info {
+  flex: 2;
+  font-size: 1em;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 2em;
+}
+
+.address-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.address-info-text {
+  margin: 0.2em;
+}
+
+.div-footer-widgets {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: end;
+  padding: 2em;
+}
+
+.widget-link {
+  height: 2em;
+  margin: 0.5em;
+}
+
+.widget-image {
+  object-fit: contain;
+  height: 100%;
+}
+
+.hero {
+  width: 100%;
+  min-height: 15em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  background: white;
+  font-family: 'Barlow Condensed';
+}
+
+.hero-image {
+  opacity: 0.8;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.hero-title {
+  color: white;
+  margin: 0;
+  font-weight: 500;
+  z-index: 10;
+  font-size: clamp(3rem, 6vw, 7rem); /* This makes the title responsive */
+}
+
+.page-div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Barlow Condensed';
+  padding: 2em;
+  flex: 1;
+}
+
+.about-title {
+  font-size: clamp(2rem, 5vw, 4em); /* Responsive title size */
+  margin: 0;
+  font-weight: 500;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
+  padding: 2em;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1em;
+}
+
+.navbar-button {
+  border: none;
+  background-color: rgb(53, 69, 77);
+  color: white;
+  font-size: 1em;
+}
+
+.navbar-link:hover {
+  cursor: pointer;
+}
+
+.navbar-button:hover {
+  cursor: pointer;
+}
+
+.a-navbar {
+  height: 80%;
+  max-height: 3em;
+}
+
+.banner-navbar {
+  object-fit: contain;
+  height: 100%;
+  margin-left: 3.5em;
+  filter: invert();
+}
+
+.banner-hero {
+  width: 50%;
+  object-fit: contain;
+}
+
+.div-hero-banner {
+  flex: 1;
+  padding: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.div-hero-link {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 20em;
+}
+
+.hero-link {
+  width: 60%;
+  color: white;
+  font-weight: 400;
+  font-size: 1.7vw;
+  background-color: #698e92;
+  border-radius: 10px;
+  padding: 1.7vh;
+  margin: 0.8vh;
+  text-decoration: none;
+  text-align: center;
+}
+
+.hero-link:hover {
+  background-color: rgb(53, 69, 77);
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100vh;
+}
+
+.box-container {
+  flex: 1 1 auto;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2em;
+  min-height: min-content;
+}
 
 .page-image {
   width: auto;
@@ -227,7 +221,6 @@ body {
   margin-right: 3.5em;
   margin-left: 3.5em;
 }
-
 
 .downloads {
   background-color: white;
@@ -271,12 +264,12 @@ body {
 .help-txt {
   width: 90%;
   font-size: 1.3em;
-
 }
 
 .help-title {
   font-size: 2em;
 }
+
 .div-project {
   margin: 1em;
   background-color: #a2b5b7;
@@ -297,6 +290,7 @@ body {
 .project-image {
   object-fit: cover;
   height: 100%;
+  max-height: 20em;
 }
 
 .div-project-info {
@@ -334,4 +328,49 @@ body {
   align-self: end;
   margin-bottom: 2em;
   margin-right: 2em;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .netlab-navbar {
+    height: auto;
+    flex-direction: column;
+  }
+  
+  .hero-title {
+    font-size: clamp(2rem, 6vw, 4rem);
+  }
+
+  .navbar-links {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .hero-link {
+    font-size: 4vw;
+    width: 80%;
+  }
+
+  .div-project {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .project-title {
+    font-size: 1.5em;
+  }
+  
+  .project-summary {
+    font-size: 1.2em;
+  }
+
+  .project-github-link {
+    font-size: 1.2em;
+  }
+
+  .page-image {
+    max-height: 15rem;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
 }
